@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    font-size: 3vw;
+    font-family: cursive;
+
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23d5ab);
+    background-size: 600% 600%;
+    animation: gradient 11s ease infinite;
+}
+
+p{
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 2%;
+    font-family: sans-serif;
+}
+
+h4{
+    margin-left: 5% ;
+    font-size: 1.5vw;
+    font-family: cursive;
+}
+
+img{
+    height:25% ;
+    width:25% ;
+    margin-left:15%;
+    margin-bottom: 5%;
+}
+
+
+
